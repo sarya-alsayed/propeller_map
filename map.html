@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Propeller Map</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/		leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+   integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+   crossorigin=""></script>
+   <script src="bower_components/leaflet.tilelayer.colorfilter/src/leaflet-tilelayer-colorfilter.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="mapStyle.css">
+</head>
+<body>
+    <h3> The Road to Propeller</h3>
+    <div id="map"></div>
+       
+    <div class="container">
+    <div class="point" data-point="37.000,-120.652"><button>interview</button></div>
+    <div class="point" data-point="10.232,-118.334"><button>challenge</button></div>
+    <div class="point" data-point="30.232,-90.334"><button>technical interview</button></div>
+    <div class="point" data-point="40.232,-80.334"><button>accepted</button></div>
+
+        <div id="dark"><button>dark</button></div>
+        <div id="color"><button>color</button></div>
+        <div id="bright"><button>bright</button></div>
+        <div id="reset"><button>reset</button></div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="mapController.js"></script>
+   
+
+</body>
+</html>

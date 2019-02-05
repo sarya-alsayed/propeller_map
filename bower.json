@@ -1,0 +1,10 @@
+{
+  "name": "Propeller Map",
+  "version": "0.0.0",
+  "dependencies": {
+    "leaflet.tilelayer.colorfilter": "^1.2.5"
+  },
+  "ignore": [
+    "bower_components",
+  ]
+}
